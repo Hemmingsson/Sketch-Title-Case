@@ -5,7 +5,7 @@
 
 ### What is Title Case
 
-Title case capitalized principal words. articles, conjunctions & prepositions do not get capitalized unless they start the title.
+Title case means that the first letter of each word is capitalized, except for certain small words, such as articles and short prepositions. For more detailed information about what is meant by title case
 
 # Installation
 
