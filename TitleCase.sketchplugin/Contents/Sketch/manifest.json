@@ -1,0 +1,24 @@
+{
+    "name" : "Title Case",
+    "author" : "Mattias Hemmingsson",
+    "description" : "Capitalizes all words except articles, conjunctions, and prepositions for a selected text layer",
+    "homepage": "mattias.lol",
+    "version": "1.0",
+    "identifier": "lol.mattias.title-case",
+    "commands" : [
+        {
+            "script" : "toTitleCase.js",
+            "handler" : "onRun",
+            "name" : "Title Case",
+            "identifier" : "title_case",
+            "shortcut" : "cmd ctrl t"
+        }
+    ],
+    "menu" : {
+        "title" : "Title Case",
+        "isRoot" : true,
+        "items" : [
+            "title_case"
+        ]
+    }
+}

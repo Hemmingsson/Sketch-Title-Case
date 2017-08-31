@@ -1,0 +1,6 @@
+{
+    "name" : "Title Case",
+    "author" : "Mattias Hemmingsson",
+    "description" : "Capitalizes all words except articles, conjunctions, and prepositions for selected text layers",
+    "tags": ["title case", "title", "titlecase", "transform text"]
+}
