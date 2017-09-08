@@ -35,7 +35,8 @@ var eachTextLayer = function (layers) {
     }
   }
 }
-var onRun = function (context) {
+
+export default function (context) {
   var doc = context.document
   var selection = context.selection
   if (selection.count() === 0) {
@@ -44,3 +45,4 @@ var onRun = function (context) {
   }
   eachTextLayer(selection)
 }
+
