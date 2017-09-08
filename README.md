@@ -9,7 +9,9 @@ Title case means that the first letter of each word is capitalized, except for c
 
 # Installation
 
-Move the Title Case plugin into your Plugins folder or double-click the .sketchplugin file.
+### Manual Installation
+
+[Download the latest release](https://github.com/Hemmingsson/Sketch-Title-Case/releases/latest), unzip and double click on the .sketchplugin.
 
 # Usage
 
