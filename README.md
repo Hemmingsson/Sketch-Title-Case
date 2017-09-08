@@ -15,5 +15,5 @@ Title case means that the first letter of each word is capitalized, except for c
 
 # Usage
 
-Select a text layer and hit `CMD` + `Ctrl` + `T` to tranform its content to Title Case
+Select a text layer and hit `⌘` + `Ctrl` + `T` to tranform its content to Title Case
 
