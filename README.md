@@ -17,7 +17,7 @@ Title case means that the first letter of each word is capitalized, except for c
 
 Select a text layer and hit `Cmd` + `Ctrl` + `T` to tranform its content to Title Case
 
-# To Do
+# Todos
 - [x] Text layers
 - [ ] Selected Text
 - [ ] Symbols
