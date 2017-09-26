@@ -5,6 +5,10 @@ function capitalize (string) {
 }
 
 var toTitleCase = function (string) {
+
+  if (!string) {
+    return
+  }
     // capitalize each word
   string = string.replace(/([^\W_]+[^\s-]*) */g, function (txt) {
     return capitalize(txt)
@@ -28,6 +32,30 @@ var eachTextLayer = function (layers) {
 
   for (var i = 0; i < layers.count(); i++) {
     layer = layers[i]
+    if (layer.class() === MSSymbolInstance) {
+      var existingOverrides = layer.overrides() || NSDictionary.dictionary()
+      var overrides = NSMutableDictionary.dictionaryWithDictionary(existingOverrides)
+      var keys = overrides.allKeys()
+
+      var symbolMaster = layer.symbolMaster()
+      var children = symbolMaster.children()
+
+      for (var i = 0; i < keys.count(); i++) {
+        var index = keys.objectAtIndex(i)
+
+        if (overrides[index].class().isSubclassOfClass_(NSString.class())) {
+          
+
+          var ObjectId = children[i].objectID().toString()
+          var string = existingOverrides.objectForKey(ObjectId)
+          var titleCaseString = toTitleCase(string)
+          overrides[index] = titleCaseString
+
+        }
+      }
+
+      layer.overrides = overrides
+    }
     if (layer.class() === MSTextLayer) {
       var string = layer.stringValue()
       var titleCaseString = toTitleCase(string)
