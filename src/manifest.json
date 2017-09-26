@@ -4,7 +4,7 @@
   "description": "Capitalizes all words except articles, conjunctions, and prepositions for a selected text layer",
   "icon" : "icons/icon.png",
   "homepage": "mattias.lol",
-  "version": "1.1",
+  "version": "1.0.1",
   "identifier": "lol.mattias.title-case",
   "compatibleVersion": 3,
   "bundleVersion": 1,
