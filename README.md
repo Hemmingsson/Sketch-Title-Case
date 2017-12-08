@@ -1,4 +1,4 @@
-# Sketch Title Case [![View on Sketchpacks.com](https://badges.sketchpacks.com/plugins/lol.mattias.title-case/downloads/total.svg)](https://sketchpacks.com/Hemmingsson/Sketch-Title-Case/)
+# Sketch Title Case
 
 ![Screen Shot](https://media.giphy.com/media/l0IsIwEvoqDkP2gGQ/giphy.gif)
 
@@ -14,7 +14,7 @@ Word list from: [titlecase.com](http://titlecase.com/)
 
 # Installation
 
-### Using Sketchpacks
+### Using Sketchpacks [![View on Sketchpacks.com](https://badges.sketchpacks.com/plugins/lol.mattias.title-case/downloads/total.svg)](https://sketchpacks.com/Hemmingsson/Sketch-Title-Case/)
 
 [![Install with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install with Sketchpacks")](https://sketchpacks.com/Hemmingsson/Sketch-Title-Case/install)
 
