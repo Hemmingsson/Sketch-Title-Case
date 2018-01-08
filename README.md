@@ -32,5 +32,5 @@ Select a text layer and hit `Cmd` + `Ctrl` + `T` to tranform its content to Titl
 # Todos
 - [x] Text layers
 - [ ] Selected Text
-- [ ] Symbols
+- [ ] Symbol overrides
 
