@@ -4,7 +4,8 @@
 
 ### What is Title Case
 
-Title case means that the first letter of each word is capitalized, except for certain small words, such as articles and short prepositions.
+Title case means that the first letter of each word is capitalized, except for certain small words, such as articles and short prepositions. [Here](https://medium.com/@jsaito/making-a-case-for-letter-case-19d09f653c98) is a good article on the topic.
+
 
 #### Full list of words excluded from getting capitalized
 
