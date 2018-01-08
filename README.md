@@ -14,9 +14,11 @@ Word list from: [titlecase.com](http://titlecase.com/)
 
 # Installation
 
-### Using Sketchpacks [![View on Sketchpacks.com](https://badges.sketchpacks.com/plugins/lol.mattias.title-case/downloads/total.svg)](https://sketchpacks.com/Hemmingsson/Sketch-Title-Case/)
+### Using Sketchpacks 
 
 [![Install with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install with Sketchpacks")](https://sketchpacks.com/Hemmingsson/Sketch-Title-Case/install)
+
+[![View on Sketchpacks.com](https://badges.sketchpacks.com/plugins/lol.mattias.title-case/downloads/total.svg)](https://sketchpacks.com/Hemmingsson/Sketch-Title-Case/)
 
 ### Manual Installation
 
