@@ -1,4 +1,4 @@
-# Sketch Title Case [![View on Sketchpacks.com](https://badges.sketchpacks.com/plugins/lol.mattias.title-case/compatibility.svg)](https://sketchpacks.com/Hemmingsson/Sketch-Title-Case/) [![View on Sketchpacks.com](https://badges.sketchpacks.com/plugins/lol.mattias.title-case/version.svg)](https://sketchpacks.com/Hemmingsson/Sketch-Title-Case/)
+# Sketch Title Case
 
 ![Screen Shot](https://media.giphy.com/media/l0IsIwEvoqDkP2gGQ/giphy.gif)
 
