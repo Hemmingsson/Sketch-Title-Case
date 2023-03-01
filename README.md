@@ -4,8 +4,7 @@
 
 ### What is Title Case
 
-Title case means that the first letter of each word is capitalized, except for certain small words, such as articles and short prepositions. [Here](https://medium.com/@jsaito/making-a-case-for-letter-case-19d09f653c98) is a good article explaining why you should consider using it. 
-
+Title case means that the first letter of each word is capitalized, except for certain small words, such as articles and short prepositions. [Here](https://medium.com/@jsaito/making-a-case-for-letter-case-19d09f653c98) is a good article explaining why you should consider using it.
 
 #### Full list of words excluded from getting capitalized
 
@@ -19,18 +18,16 @@ Word list from: [titlecase.com](http://titlecase.com/)
 
 [![Install with Sketchpacks](http://sketchpacks-com.s3.amazonaws.com/assets/badges/sketchpacks-badge-install.png "Install with Sketchpacks")](https://sketchpacks.com/Hemmingsson/Sketch-Title-Case/install)
 
-
 ### Manual Installation [![Total Downloads](https://img.shields.io/github/downloads/hemmingsson/Sketch-Title-Case/total.svg)](https://github.com/Hemmingsson/Sketch-Title-Case/releases/latest)
 
 [Download the latest release](https://github.com/Hemmingsson/Sketch-Title-Case/releases/latest), unzip and double click on the .sketchplugin.
-
 
 # Usage
 
 Select a text layer and hit `Cmd` + `Ctrl` + `T` to tranform its content to Title Case
 
 # Todos
+
 - [x] Text layers
 - [ ] Selected Text
 - [ ] Symbol overrides
-
