@@ -34,3 +34,7 @@ Select a text layer and hit `Cmd` + `Ctrl` + `T` to tranform its content to Titl
 - [ ] Selected Text
 - [ ] Symbol overrides
 
+
+## Build from source
+
+Use Node.js 22 or later. Run `npm test`, then `npm run build`. Open the generated `plugin.sketchplugin` in Sketch. No build dependencies are required.

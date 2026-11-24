@@ -1,4 +1,4 @@
-var lowerCaseWords = ['an', 'abaft', 'about', 'above', 'afore', 'after', 'along', 'amid', 'among', 'an', 'apud', 'as', 'aside', 'at', 'atop', 'below', 'but', 'by', 'circa', 'down', 'for', 'from', 'given', 'in', 'into', 'lest', 'like', 'mid', 'midst', 'minus', 'near', 'next', 'of', 'off', 'on', 'onto', 'out', 'over', 'pace', 'past', 'per', 'plus', 'pro', 'qua', 'round', 'sans', 'save', 'since', 'than', 'thru', 'till', 'times', 'to', 'under', 'until', 'unto', 'up', 'upon', 'via', 'vice', 'with', 'worth', 'the', 'and', 'nor', 'or', 'yet', 'so']
+var lowerCaseWords = ['a', 'abaft', 'about', 'above', 'afore', 'after', 'along', 'amid', 'among', 'an', 'apud', 'as', 'aside', 'at', 'atop', 'below', 'but', 'by', 'circa', 'down', 'for', 'from', 'given', 'in', 'into', 'lest', 'like', 'mid', 'midst', 'minus', 'near', 'next', 'of', 'off', 'on', 'onto', 'out', 'over', 'pace', 'past', 'per', 'plus', 'pro', 'qua', 'round', 'sans', 'save', 'since', 'than', 'thru', 'till', 'times', 'to', 'under', 'until', 'unto', 'up', 'upon', 'via', 'vice', 'with', 'worth', 'the', 'and', 'nor', 'or', 'yet', 'so']
 
 function capitalize (string) {
   return string.charAt(0).toUpperCase() + string.substr(1).toLowerCase()
@@ -37,17 +37,13 @@ var eachTextLayer = function (layers) {
       var overrides = NSMutableDictionary.dictionaryWithDictionary(existingOverrides)
       var keys = overrides.allKeys()
 
-      var symbolMaster = layer.symbolMaster()
-      var children = symbolMaster.children()
-
-      for (var i = 0; i < keys.count(); i++) {
-        var index = keys.objectAtIndex(i)
+      for (var keyIndex = 0; keyIndex < keys.count(); keyIndex++) {
+        var index = keys.objectAtIndex(keyIndex)
 
         if (overrides[index].class().isSubclassOfClass_(NSString.class())) {
           
 
-          var ObjectId = children[i].objectID().toString()
-          var string = existingOverrides.objectForKey(ObjectId)
+          var string = existingOverrides.objectForKey(index).toString()
           var titleCaseString = toTitleCase(string)
           overrides[index] = titleCaseString
 

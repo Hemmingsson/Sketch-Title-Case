@@ -1,24 +1,17 @@
 {
-	"name": "title-case",
-	"version": "1.0.1",
-	"description": "",
-	"main": "index.js",
-	"repository": "https://github.com/Hemmingsson/Sketch-Title-Case",
-	"scripts": {
-		"test": "echo \"Error: no test specified\" && exit 1",
-		"build": "skpm build",
-		"publish": "skpm publish"
-	},
-	"author": "",
-	"license": "ISC",
-	"engines": {
-		"sketch": ">=3.0"
-	},
-	"devDependencies": {
-		"skpm": "^0.10.5"
-	},
-	"skpm": {
-		"manifest": "src/manifest.json",
-		"main": "plugin.sketchplugin"
-	}
+  "name": "title-case",
+  "version": "1.0.1",
+  "description": "",
+  "main": "index.js",
+  "repository": "https://github.com/Hemmingsson/Sketch-Title-Case",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test test/*.test.cjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "sketch": ">=3.0",
+    "node": ">=22"
+  }
 }
